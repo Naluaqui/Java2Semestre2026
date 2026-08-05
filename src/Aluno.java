@@ -20,6 +20,11 @@ public class Aluno extends Pessoa{
     }
 
     @Override
+    public void teste() {
+        System.out.println("TESTE");
+    }
+
+    @Override
     public void imprimirDados() {
         System.out.println(" Aluno do nome: " + this.nome + " do documento " + " e email " + this.email + " e da matricula: " + this.matricula);
     }

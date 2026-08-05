@@ -1,4 +1,4 @@
-public class Pessoa {
+public abstract class Pessoa {
 
     protected String nome;
     protected String documento;
@@ -30,6 +30,8 @@ public class Pessoa {
 
     public Pessoa() {
     }
+
+    public abstract void teste();
 
     public Pessoa(String nome, String documento, String email) {
         this.nome = nome;
