@@ -16,4 +16,9 @@ public class Professor extends Pessoa{
         this.documento = documento;
         this.email = email;
     }
+
+    @Override
+    public void imprimirDados() {
+        System.out.println(" Aluno do nome: " + this.nome + " do documento " + " e email " + this.email + " e da inscrição: " + this.inscricao);
+    }
 }

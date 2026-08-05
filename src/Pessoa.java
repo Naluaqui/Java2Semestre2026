@@ -38,6 +38,6 @@ public class Pessoa {
     }
 
     public void imprimirDados() {
-        System.out.println("Dados da pessoa");
+        System.out.println("Dados da pessoa: " + this.nome + " DOcumento: " + this.documento + " email: " + this.email);
     }
 }

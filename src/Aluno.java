@@ -19,5 +19,10 @@ public class Aluno extends Pessoa{
         this.email = email;
     }
 
+    @Override
+    public void imprimirDados() {
+        System.out.println(" Aluno do nome: " + this.nome + " do documento " + " e email " + this.email + " e da matricula: " + this.matricula);
+    }
+
 
 }
